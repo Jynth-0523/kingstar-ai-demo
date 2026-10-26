@@ -14,7 +14,7 @@ node tests/demo-flow.mjs
 node server.mjs
 ```
 
-打开 http://127.0.0.1:4173 ，点击右上角“三分钟导览”，按提示完成补信息、证据核对、人工复核、报告交付与冲突演示。在当前 Mac 上也可双击 `start.command`。各场景进度、未保存输入与交付历史保存在当前浏览器，刷新可继续；浏览器禁用本地存储时会明确提示。重置只清空当前案例，并需在页面内确认。
+打开 http://127.0.0.1:4173 ，点击右上角“三分钟导览”，按提示完成补信息、证据核对、人工复核、报告交付与冲突演示。下载本地交付包后，在原始 Mac 环境也可双击 `start.command`。各场景进度、未保存输入与交付历史保存在当前浏览器，刷新可继续；浏览器禁用本地存储时会明确提示。重置只清空当前案例，并需在页面内确认。
 
 ## 流程完整性（v0.5）
 
@@ -39,11 +39,13 @@ node server.mjs
 - 追问可手动选择继续一般解释，或转为个人持仓、用钱计划问题。转为个人情况后重新确认授权与画像，并检查持仓、证据和复核流程；系统不自动判断自由文本意图。
 - 可一键填入示例问题、答复和客户信息；不自动提交、勾选授权或批准。已有问题和答复不会被示例覆盖。
 
-当前交付范围为本地 Demo。之前 Sites 返回的托管域名存在解析问题，不作为演示入口。生产系统建设不属于当前完成标准。
+当前交付范围为可公开演示的静态 Demo，使用 GitHub Pages 托管；也可本地运行。生产系统建设不属于当前完成标准。
 
 ## GitHub Pages 发布
 
-发布配置已准备，尚未确认线上部署成功。预定仓库名为 `kingstar-ai-demo`；在账号 `Jynth-0523` 下成功部署后，入口为 `https://jynth-0523.github.io/kingstar-ai-demo/`。
+公开仓库：[Jynth-0523/kingstar-ai-demo](https://github.com/Jynth-0523/kingstar-ai-demo)。
+
+网站入口：[打开金仕达 AI Demo](https://jynth-0523.github.io/kingstar-ai-demo/)。首次部署完成后生效；发布状态可在仓库的 Actions 页面查看。
 
 1. 在 GitHub 创建公开仓库 `kingstar-ai-demo`，将本项目文件放入仓库根目录，保留 `dist/`、`tests/`、`package.json` 和 `.github/workflows/pages.yml` 的层级。
 2. 打开仓库的 **Settings → Pages**，将 **Source** 设为 **GitHub Actions**。
