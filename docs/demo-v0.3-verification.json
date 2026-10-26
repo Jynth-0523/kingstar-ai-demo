@@ -1,0 +1,34 @@
+{
+  "version": "0.3.0",
+  "timestamp": "2026-10-26T18:03:21.440050+00:00",
+  "scope": "Local demo workflow completeness; GitHub delivery deferred at user request",
+  "rules": {
+    "total": 86,
+    "passed": 86,
+    "report": "artifacts/acceptance-results.json"
+  },
+  "interactionSimulation": {
+    "total": 31,
+    "passed": 31,
+    "report": "artifacts/demo-flow-results.json"
+  },
+  "http": {
+    "url": "http://127.0.0.1:4173/lib/workflow.js",
+    "status": 200
+  },
+  "visualVerification": "No live-browser visual verification in this update. Prior local browser observation was rejected by browser URL security policy; no alternate surface used.",
+  "flows": [
+    "required information and evidence checks",
+    "explicit submit for review",
+    "approve or return with notes",
+    "revise and resubmit",
+    "deliver immutable version",
+    "client acknowledgment",
+    "save independent case progress",
+    "restore unsaved work after reload",
+    "retain historical deliveries",
+    "invalidate approvals after source changes",
+    "idempotent delivery and acknowledgment",
+    "confirmed reset limited to active case"
+  ]
+}
