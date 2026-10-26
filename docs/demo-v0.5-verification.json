@@ -1,0 +1,49 @@
+{
+  "version": "0.5.0",
+  "timestamp": "2026-10-26T18:41:00.213565+00:00",
+  "scope": "Local demo follow-up routing, advisor work queue and sample entry; GitHub remains deferred",
+  "rules": {
+    "total": 120,
+    "passed": 120,
+    "failed": 0,
+    "report": "artifacts/acceptance-results.json"
+  },
+  "interactionSimulation": {
+    "total": 64,
+    "passed": 64,
+    "report": "artifacts/demo-flow-results.json"
+  },
+  "http": {
+    "url": "http://127.0.0.1:4173/lib/tasks.js",
+    "status": 200,
+    "matchesLocalSource": true
+  },
+  "staticValidation": [
+    "Local module imports and document links resolve",
+    "Version and test counts consistent",
+    "Application syntax check passed",
+    "git diff --check passed"
+  ],
+  "visualVerification": "Completed in a later live-browser pass on 2026-10-26. Desktop and narrow layout, follow-up escalation, review/delivery/acknowledgement, queue routing and reload persistence checked; 120 browser rules passed. See docs/browser-v0.5-qa.json. Actual PDF pagination not tested.",
+  "changes": [
+    "Manual follow-up direction: continue general explanations or escalate to a personalized workflow",
+    "Escalation rechecks consent, profile validity, holdings and evidence before reply and review",
+    "Prior reports and receipts retained while the new report identifies the current question",
+    "Advisor queue filters active cases by next step and resumes the correct page",
+    "No unopened cases created by queue browsing; denied cases do not show customer questions",
+    "Sample questions, replies and profile data fill inputs without submission, authorization or approval",
+    "Existing progress remains compatible with the browser storage schema",
+    "Long-text wrapping and narrow-screen/print styles updated"
+  ],
+  "limitations": [
+    "Synthetic data and deterministic templates; no real model or backend",
+    "Follow-up direction is chosen by the demonstrator, not inferred from free text",
+    "DOM simulation does not validate visual layout or actual print pagination"
+  ],
+  "browserAccessCorrection": {
+    "previousDiagnosis": "Local browser access was unavailable due to a tool security restriction.",
+    "finding": "The rejected target was an old browser-generated data: error page. The live HTTP demo was a separate existing tab and was accessible through the normal browser tool.",
+    "resolution": "Selected the live HTTP tab and refreshed its stale v0.2 view to v0.5. No browser permissions or security controls were changed."
+  },
+  "visualVerifiedAt": "2026-10-26T18:51:10.363305+00:00"
+}
