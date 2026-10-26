@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "scope": "Local demo update; existing hosted site not republished",
+  "timestamp": "2026-10-26T17:21:13.062154+00:00",
+  "rules": {
+    "passed": 56,
+    "total": 56,
+    "report": "artifacts/acceptance-results.json"
+  },
+  "interactionSimulation": {
+    "passed": 14,
+    "total": 14,
+    "report": "artifacts/demo-flow-results.json"
+  },
+  "http": {
+    "url": "http://127.0.0.1:4173/lib/demo.js",
+    "status": 200
+  },
+  "visualVerification": "Not performed in this update. Prior browser acquisition was rejected by the browser URL security policy; no alternate browser surface used. docs/browser-qa.json and artifacts/workbench-preview.png describe the earlier version only.",
+  "sourcesChecked": "2026-10-26",
+  "referenceLocation": "dist/lib/demo.js and #references"
+}
