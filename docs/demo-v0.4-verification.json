@@ -1,0 +1,43 @@
+{
+  "version": "0.4.0",
+  "timestamp": "2026-10-26T18:23:13.749440+00:00",
+  "scope": "Local demo follow-up workflow and recovery improvements; GitHub deferred at user request",
+  "rules": {
+    "total": 104,
+    "passed": 104,
+    "failed": 0,
+    "report": "artifacts/acceptance-results.json"
+  },
+  "interactionSimulation": {
+    "total": 46,
+    "passed": 46,
+    "report": "artifacts/demo-flow-results.json"
+  },
+  "http": {
+    "url": "http://127.0.0.1:4173/app.js",
+    "status": 200,
+    "cacheControl": "no-store"
+  },
+  "staticValidation": [
+    "Local ES module imports resolve",
+    "Local document links resolve",
+    "Version and rule counts consistent",
+    "git diff --check passed"
+  ],
+  "visualVerification": "No new live-browser visual verification. Earlier browser URL policy rejected local browser access; no workaround used.",
+  "changes": [
+    "Client follow-up after delivery, advisor-entered reply, new draft, review, delivery and acknowledgment",
+    "Previous reports and acknowledgment receipts retained",
+    "Input reverted to saved text immediately restores enabled controls",
+    "Regenerating identical returned content does not bypass required revision",
+    "Invalid actions show persistent inline feedback without clearing input",
+    "Damaged cases recovered independently with original workspace backup",
+    "Report display, print and export share delivery identifiers and receipt metadata"
+  ],
+  "limitations": [
+    "Synthetic data and deterministic templates; no live LLM or backend",
+    "Follow-up preserves original task category and uses an answer entered by the demonstrator",
+    "Browser-local state is editable and is not production authentication or audit storage",
+    "Interaction tests simulate DOM events and do not verify browser layout"
+  ]
+}
