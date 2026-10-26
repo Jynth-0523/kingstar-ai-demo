@@ -1,0 +1,263 @@
+{
+  "timestamp": "2026-10-26T19:37:02.510Z",
+  "mode": "Node source-level DOM simulation; no live-browser or visual assertions",
+  "passed": 64,
+  "checks": [
+    {
+      "name": "导览先阻断缺失期限",
+      "passed": true
+    },
+    {
+      "name": "保存客户信息后可以进入证据步骤",
+      "passed": true
+    },
+    {
+      "name": "费用结果和引用出现在证据页",
+      "passed": true
+    },
+    {
+      "name": "金额和期限更新重新计算",
+      "passed": true
+    },
+    {
+      "name": "生成草稿后须先提交",
+      "passed": true
+    },
+    {
+      "name": "提交后允许复核",
+      "passed": true
+    },
+    {
+      "name": "缺少复核意见显示持续提示并保留已提交草稿",
+      "passed": true
+    },
+    {
+      "name": "退回意见可见，禁止原样重提",
+      "passed": true
+    },
+    {
+      "name": "未保存修改阻断提交",
+      "passed": true
+    },
+    {
+      "name": "修改重提后可审批",
+      "passed": true
+    },
+    {
+      "name": "交付后转到客户确认",
+      "passed": true
+    },
+    {
+      "name": "客户确认后案例完成",
+      "passed": true
+    },
+    {
+      "name": "导出固定版本的自包含报告",
+      "passed": true
+    },
+    {
+      "name": "打印入口可用",
+      "passed": true
+    },
+    {
+      "name": "切换冲突场景暂停测算",
+      "passed": true
+    },
+    {
+      "name": "恢复资料后可再次计算",
+      "passed": true
+    },
+    {
+      "name": "完成导览退出提示",
+      "passed": true
+    },
+    {
+      "name": "切回场景恢复已确认报告",
+      "passed": true
+    },
+    {
+      "name": "版本变化明确显示草稿失效",
+      "passed": true
+    },
+    {
+      "name": "旧报告作为历史记录保留",
+      "passed": true
+    },
+    {
+      "name": "失效草稿不能提交或批准",
+      "passed": true
+    },
+    {
+      "name": "重新生成版本递增",
+      "passed": true
+    },
+    {
+      "name": "输入变化即时阻断提交并更新状态",
+      "passed": true
+    },
+    {
+      "name": "改回原文后按钮和状态即时恢复",
+      "passed": true
+    },
+    {
+      "name": "页面切换保留未保存正文",
+      "passed": true
+    },
+    {
+      "name": "刷新后恢复未保存修改",
+      "passed": true
+    },
+    {
+      "name": "放弃修改后可继续提交",
+      "passed": true
+    },
+    {
+      "name": "重置前解释清空范围",
+      "passed": true
+    },
+    {
+      "name": "取消重置保留草稿",
+      "passed": true
+    },
+    {
+      "name": "一般解释直达客户，不进入人工复核",
+      "passed": true
+    },
+    {
+      "name": "一般解释也能确认并完成",
+      "passed": true
+    },
+    {
+      "name": "空追问显示提示且保留原交付",
+      "passed": true
+    },
+    {
+      "name": "未发送追问在切换页面后保留",
+      "passed": true
+    },
+    {
+      "name": "追问进入顾问待办并阻断旧稿交付",
+      "passed": true
+    },
+    {
+      "name": "刷新恢复待答复追问和答复输入",
+      "passed": true
+    },
+    {
+      "name": "保存补充答复生成新版本",
+      "passed": true
+    },
+    {
+      "name": "追问答复再次交付确认并保留两轮记录",
+      "passed": true
+    },
+    {
+      "name": "页面报告与导出共用交付编号和客户确认信息",
+      "passed": true
+    },
+    {
+      "name": "追问报告包含补充内容、交付编号和确认时间",
+      "passed": true
+    },
+    {
+      "name": "历史报告保持原始正文及当时回执",
+      "passed": true
+    },
+    {
+      "name": "越权场景不展示客户信息表单",
+      "passed": true
+    },
+    {
+      "name": "七个页面均可渲染",
+      "passed": true
+    },
+    {
+      "name": "页面验收运行 120 项检查",
+      "passed": true
+    },
+    {
+      "name": "部分进度损坏时提示恢复并保存原始备份",
+      "passed": true
+    },
+    {
+      "name": "恢复提示可下载未经改写的原始记录",
+      "passed": true
+    },
+    {
+      "name": "恢复损坏场景不丢失其他已完成案例",
+      "passed": true
+    },
+    {
+      "name": "首页待办仅列出已打开且未完成的案例",
+      "passed": true
+    },
+    {
+      "name": "待办可以筛选已完成案例",
+      "passed": true
+    },
+    {
+      "name": "已完成待办直达当前交付报告",
+      "passed": true
+    },
+    {
+      "name": "示例追问按个人方向填入且尚未提交",
+      "passed": true
+    },
+    {
+      "name": "追问方向和示例输入切页后保留",
+      "passed": true
+    },
+    {
+      "name": "个人追问先回到授权与客户信息",
+      "passed": true
+    },
+    {
+      "name": "示例客户信息待保存且不会自动勾选授权",
+      "passed": true
+    },
+    {
+      "name": "补齐个人信息和持仓后要求核对产品资料",
+      "passed": true
+    },
+    {
+      "name": "下一步进入证据中心",
+      "passed": true
+    },
+    {
+      "name": "最新追问列入待答复并显示个人问题",
+      "passed": true
+    },
+    {
+      "name": "待答复入口返回顾问工作台",
+      "passed": true
+    },
+    {
+      "name": "示例答复仅填入文字，保留保存和复核步骤",
+      "passed": true
+    },
+    {
+      "name": "个人追问答复生成新稿但禁止直接交付",
+      "passed": true
+    },
+    {
+      "name": "提交后出现在待复核列表",
+      "passed": true
+    },
+    {
+      "name": "获批交付后出现在待客户确认列表",
+      "passed": true
+    },
+    {
+      "name": "个人追问完成闭环且三轮报告都可追溯",
+      "passed": true
+    },
+    {
+      "name": "新版报告对应本轮个人问题并保留初始问题及复核记录",
+      "passed": true
+    },
+    {
+      "name": "完成的个人追问退出开放待办",
+      "passed": true
+    }
+  ]
+}
