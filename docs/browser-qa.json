@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-26",
+  "environment": "Chrome local preview",
+  "checks": [
+    {
+      "check": "Desktop overview",
+      "result": "passed",
+      "evidence": "artifacts/workbench-preview.png"
+    },
+    {
+      "check": "Missing horizon disables draft; completing 24 months enables it",
+      "result": "passed"
+    },
+    {
+      "check": "Draft with citations then distinct reviewer approval and customer delivery",
+      "result": "passed"
+    },
+    {
+      "check": "Source version update revokes displayed approval and disables delivery",
+      "result": "passed"
+    },
+    {
+      "check": "Browser acceptance lab executes shared suite",
+      "result": "passed",
+      "passed": 40,
+      "total": 40
+    },
+    {
+      "check": "Mobile companion form at 390 px viewport override",
+      "result": "passed",
+      "documentClientWidth": 375,
+      "documentScrollWidth": 375
+    },
+    {
+      "check": "Guide page 10 sections and readable tables",
+      "result": "passed"
+    }
+  ],
+  "limits": [
+    "No production authentication or real tenant isolation test",
+    "No LLM or live data evaluation",
+    "No external services connected"
+  ]
+}
