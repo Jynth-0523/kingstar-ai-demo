@@ -1,0 +1,37 @@
+{
+  "version": "0.5.0",
+  "checkedAt": "2026-10-26T18:51:10.363305+00:00",
+  "url": "http://127.0.0.1:4173/",
+  "browser": "Codex in-app browser, existing live HTTP tab",
+  "accessCorrection": {
+    "previousDiagnosis": "Local browser access was unavailable due to a tool security restriction.",
+    "finding": "The rejected target was an old browser-generated data: error page. The live HTTP demo was a separate existing tab and was accessible through the normal browser tool.",
+    "resolution": "Selected the live HTTP tab and refreshed its stale v0.2 view to v0.5. No browser permissions or security controls were changed."
+  },
+  "checks": [
+    "Desktop overview visually inspected at 1280 x 900; document clientWidth and scrollWidth both 1265.",
+    "Narrow overview and report visually inspected at 390 x 844; document clientWidth and scrollWidth both 375. Navigation has its own horizontal scroll area.",
+    "General explanation generated, delivered and acknowledged as CASE-004-V1.",
+    "Personal follow-up correctly paused for fresh consent, profile, holdings and evidence; sample profile fill did not grant consent.",
+    "Advisor reply queue displayed the latest question and resumed the correct editor.",
+    "Supplementary reply produced V2; delivery was disabled before review, then succeeded after submission and approval.",
+    "Customer acknowledgement completed V2; current report showed the latest question and original question separately, with V1 retained in history.",
+    "Reload retained completed status, current V2 report, V1 history, review and customer receipt.",
+    "Rule suite executed in the real browser: 120 passed, 0 failed.",
+    "Captured browser console had no warning or error entries.",
+    "Viewport override reset and live delivery page kept open."
+  ],
+  "screenshots": [
+    "artifacts/browser-v0.5-overview.png",
+    "artifacts/browser-v0.5-desktop.png",
+    "artifacts/browser-v0.5-report-desktop.png",
+    "artifacts/browser-v0.5-report-mobile.png",
+    "artifacts/browser-v0.5-overview-mobile.png",
+    "artifacts/browser-v0.5-evaluation.png"
+  ],
+  "limitations": [
+    "Narrow desktop viewport checks are not physical mobile-device testing.",
+    "Native print dialog and PDF pagination were not tested in this browser pass.",
+    "All financial content and approvals in this run were synthetic demonstration data."
+  ]
+}
